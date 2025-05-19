@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 미디어 쿼리, 뷰포트 이용 / github에 배포할 예정입니다. -->
+    <!-- 아이콘 사용하기(웹 또는 앱) -->
+    <!-- 1, png 이미지 사용
+            예)icon8, iconfinder, material icon site
+         2, font awesome 아이콘 사용
+            예) <i class="arrow-next"></i> 
+         3, svg 사용
+         4, :before, :after 가상 선택자를 사용 특수문자 (&lt; &gt; &amp;) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-sclae=1.0, minimum-scale=1.0">
+    <title>포헤어 병원</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/logo-favicon.png">
+
+    <!-- jquery 최신 라이브러리 연결 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- 외부 스타일 시트 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header-bg"></div>
+            <div class="center-box">
+                <div class="left-header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 159.26 40" style="enable-background:new 0 0 159.26 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M73.03,30.19v7.04H48.7v-7.04h8.79v-3.82H45.34v-6.99h5.01v-8.51h-5.01v-3.5c0-1.01,0.34-1.84,1.01-2.48
+		c0.64-0.67,1.46-1.01,2.44-1.01H76.3v6.99h-5.01v8.51h5.01v6.99H64.52v3.82H73.03z M64.29,10.87h-6.95v8.51h6.95V10.87z"/>
+	<path class="st0" d="M100.03,15.52h3.5V8.57h6.35v22.49h-6.35v-8.37h-3.96C99.39,23.89,99,25,98.4,26.03
+		c-0.6,1.03-1.34,1.92-2.23,2.67s-1.89,1.34-3.01,1.77c-1.12,0.43-2.29,0.64-3.52,0.64c-1.38,0-2.68-0.26-3.91-0.78
+		s-2.3-1.24-3.22-2.16c-0.92-0.92-1.64-1.99-2.16-3.22c-0.52-1.23-0.78-2.53-0.78-3.91c0-1.93,0.51-3.71,1.52-5.34h-1.84V8.62h7.22
+		V3.88h7.08v4.74h6.48V15.52z M89.64,24.03c0.83,0,1.53-0.29,2.12-0.87s0.88-1.29,0.88-2.12s-0.29-1.53-0.88-2.12
+		c-0.58-0.58-1.29-0.87-2.12-0.87s-1.54,0.29-2.12,0.87c-0.58,0.58-0.87,1.29-0.87,2.12s0.29,1.53,0.87,2.12
+		S88.81,24.03,89.64,24.03z M112.59,8.57h6.35v22.49h-6.35V8.57z"/>
+	<path class="st0" d="M132.51,31.2c-1.56,0-3.03-0.3-4.39-0.9s-2.55-1.4-3.56-2.41c-1.01-1.01-1.82-2.21-2.42-3.59
+		c-0.6-1.38-0.9-2.85-0.9-4.42s0.3-3.03,0.9-4.39c0.6-1.36,1.4-2.55,2.42-3.56c1.01-1.01,2.2-1.82,3.56-2.42
+		c1.36-0.6,2.83-0.9,4.39-0.9c1.23,0,2.41,0.19,3.54,0.57c1.13,0.38,2.18,0.92,3.13,1.61c0.95,0.69,1.77,1.51,2.46,2.46
+		c0.69,0.95,1.22,1.98,1.59,3.08h4.46V8.48h7.04v22.49h-7.04v-7.59h-4.42c-0.37,1.14-0.91,2.18-1.61,3.15
+		c-0.71,0.97-1.53,1.79-2.46,2.48c-0.94,0.69-1.98,1.23-3.13,1.61C134.93,31.01,133.74,31.2,132.51,31.2z M132.51,16.53
+		c-0.92,0-1.71,0.33-2.37,0.99c-0.66,0.66-0.99,1.45-0.99,2.37c0,0.92,0.33,1.71,0.99,2.37c0.66,0.66,1.45,0.99,2.37,0.99
+		s1.71-0.33,2.37-0.99c0.66-0.66,0.99-1.45,0.99-2.37c0-0.92-0.33-1.71-0.99-2.37C134.22,16.86,133.43,16.53,132.51,16.53z"/>
+</g>
+<path class="st0" d="M3.37,38.23c-0.06-4.59-0.12-9.17-0.18-13.76c0-0.31,0-0.63,0.01-0.94c0.02-0.71,0.33-1.08,1.1-1.08
+	c3.72,0.02,7.45-0.01,11.17,0.01c1.73,0.01,3.17,0.99,2.68,3.22c-0.25,1.16-0.41,2.34-0.58,3.51c-0.27,1.84,0.36,3.34,1.87,4.41
+	c1.54,1.09,3.22,1.12,4.88,0.26c1.61-0.84,2.28-2.26,2.2-4.03c-0.06-1.37-0.16-2.75-0.29-4.12c-0.21-2.08,0.66-3.23,2.73-3.24
+	c3.78-0.01,7.56,0.1,11.34,0.17c0.16,0,0.31,0,0.47-0.01c0,5.19,0,10.37,0,15.59C28.29,38.23,15.83,38.23,3.37,38.23z"/>
+<path class="st0" d="M28.3,1.58c-0.52,1.59-1.07,3.17-1.56,4.76c-1.81,5.94-2.73,12-2.32,18.22c0.1,1.62,0.28,3.24,0.44,4.86
+	c0.14,1.39-0.35,2.46-1.54,3.17c-1.01,0.6-2.03,0.54-3-0.13c-1.12-0.78-1.46-1.84-1.23-3.19c1.2-7.26,2.97-14.37,5.72-21.2
+	c0.91-2.27,2.15-4.4,3.23-6.6C28.13,1.5,28.21,1.54,28.3,1.58z"/>
+                            </svg>
+                        </a>
+                    </div>    
+                    <nav>
+                        <div class="close">
+                            <a href="#">
+                                <img src="img/icon-x.png" alt="닫기버튼">
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">포헤어 소개
+                                    <span>
+                                        <img src="img/icon-arrow-down.png" alt="아래화살표">
+                                    </span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">핵심 경쟁력</a></li>
+                                    <li><a href="#">의료진 소개</a></li>
+                                    <li><a href="#">서울점</a></li>
+                                    <li><a href="#">대구점</a></li>
+                                    <li><a href="#">부산점</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">비절개 모발이식
+                                    <span>
+                                        <img src="img/icon-arrow-down.png" alt="아래화살표">
+                                    </span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">모발이식 고민</a></li>
+                                    <li><a href="#">오해와 진실</a></li>
+                                    <li><a href="#">비절개, 왜 포헤어인가?</a></li>
+                                    <li><a href="#">고밀도 고생착 슬릿이식</a></li>
+                                    <li><a href="#">대량모발이식</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">여성 헤어라인
+                                    <span>
+                                        <img src="img/icon-arrow-down.png" alt="아래화살표">
+                                    </span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">걱정 상담</a></li>
+                                    <li><a href="#">핵심 노하우</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">비수술 탈모치료
+                                    <span>
+                                        <img src="img/icon-arrow-down.png" alt="아래화살표">
+                                    </span>
+                                </a>
+                                <ul class="sub">
+                                    <li><a href="#">포헤어 비수술탈모치료</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="nav-bg">
+                            <img src="img/sub-bg.jpg" alt="이미지">
+                        </div>
+                    </nav>   
+                </div>
+                <div class="right-header">
+                    <div class="login">
+                        <a href="#">
+                            <svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M425.3,324.8c-41.4-15.7-38.9-9.4-38.9-38.5c0-18.8,9.3-11.9,15.2-47.7c2.3-14.1,4.2-4.7,9.1-27.3   c2.6-11.8-1.8-12.7-1.2-18.3c0.5-5.6,1-10.7,2-22.2c1.2-14.4-11.6-52-57.4-52c-45.8,0-58.6,37.6-57.4,52c0.9,11.6,1.5,16.6,2,22.2   c0.5,5.6-3.8,6.5-1.2,18.3c4.9,22.6,6.8,13.1,9.1,27.3c5.9,35.8,15.1,29,15.1,47.7c0,13.4,3.1,19-14.9,27.5   c5.4,1.9,11.7,4.2,19.3,7.1c54.4,20.7,53.1,40.8,54.5,50.3c1,6.5,1.5,58.3,1.7,76.8H480c0,0,0-80.5-1.5-89.9   C477.4,350.7,467.5,340.9,425.3,324.8z"/><path d="M357,448c0,0,0-14.1-0.2-30.4c-0.2-18.6-0.7-40-1.7-46.4c-1.5-9.5-14.3-22.2-68.6-42.9c-7.5-2.8-13.8-5.1-19.3-7.1   c-33.3-11.8-30.9-15.7-30.9-48c0-24.3,12-8.5,19.6-54.6c3-18.2,5.4-6.1,11.7-35.2c3.4-15.2-2.3-16.4-1.6-23.7   c0.7-7.3,1.4-13.8,2.6-28.7c1.6-18.5-14.9-67.1-74.1-67.1c-59.2,0-75.6,48.5-74.1,67.1c1.2,14.9,1.9,21.4,2.7,28.7   c0.7,7.3-5,8.4-1.6,23.7c6.4,29.1,8.8,17,11.8,35.2c7.6,46.1,19.5,30.3,19.5,54.6c0,37.6,3.3,34.8-50.2,55.1   c-54.3,20.7-67.1,33.4-68.6,42.9C32,383.3,32,448,32,448h162.5H357z"/></g></svg>
+                        </a>
+                    </div>
+                    <div class="search">
+                        <a href="#">
+                         <svg enable-background="new 0 0 32 32" height="32px" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="search_magnifier_magnifying_glass_loupe"><g id="search_funds_x2C__magnifying_glass_x2C__magnifier_x2C__loupe_1_"><g id="analysis_2_"><g><g><g><path d="M23.586,23.586c0.122-0.122,0.262-0.217,0.408-0.299l-2.276-2.277c-0.195-0.195-0.512-0.195-0.707,0        c-0.195,0.196-0.195,0.512,0,0.708l2.271,2.271C23.368,23.846,23.464,23.707,23.586,23.586z" fill="#263238"/><path d="M28.5,31c-0.667,0-1.295-0.26-1.768-0.732l-3.5-3.5C22.76,26.295,22.5,25.668,22.5,25        s0.26-1.295,0.732-1.768c0.906-0.906,2.629-0.906,3.535,0l3.5,3.5C30.74,27.205,31,27.832,31,28.5s-0.26,1.295-0.732,1.768        S29.167,31,28.5,31z M25,23.52c-0.407,0-0.793,0.152-1.061,0.42C23.656,24.223,23.5,24.6,23.5,25s0.156,0.777,0.439,1.061        l3.5,3.5c0.567,0.566,1.554,0.566,2.121,0C29.844,29.277,30,28.9,30,28.5s-0.156-0.777-0.439-1.061l-3.5-3.5        C25.793,23.672,25.407,23.52,25,23.52z" fill="#263238"/></g><g><path d="M13,22.45c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5c3.767,0,7.035-2.404,8.133-5.981        c0.081-0.264,0.361-0.415,0.625-0.331c0.264,0.081,0.413,0.36,0.332,0.624C20.861,19.763,17.209,22.45,13,22.45z" fill="#263238"/></g><path d="M13,25C6.383,25,1,19.617,1,13S6.383,1,13,1s12,5.383,12,12S19.617,25,13,25z M13,2       C6.935,2,2,6.935,2,13s4.935,11,11,11s11-4.935,11-11S19.065,2,13,2z" fill="#263238"/></g></g></g></g><circle cx="22" cy="13" fill="#263238" r="0.5"/></g>
+                        </svg>   
+                        </a>
+                    </div>
+                    <!-- pc에서는 안보임, mobile에서는 보임 -->
+                    <div class="menu">
+                        <a href="#">
+                             <svg class="bi bi-menu-button-wide" fill="currentColor" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5v-2zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5h-13z"/><path d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                            </svg> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-bg">
+                <a href="#">
+                    <img src="img/sub-bg.jpg" alt="sub-bg">
+                    <!-- youtube 영상 넣기 -->
+                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/4fqeYJtB6GU?si=ocSIqdiGBGn5z4mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                </a>
+            </div>
+        </header> 
+        <section class="s1">
+            <!-- css 로 만드는 자동 fadein 슬라이드 -->
+            <div class="slide">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="img4"></div>
+                <div class="img5"></div>
+            </div>
+            <div class="slide-txt">
+                <h1>FORHAIR</h1>
+                <h2>Slit~ 비절개 모발이식으로 자신감을 심다 !!</h2>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center-box2">
+                <h2>병원소개<hr></h2>
+                <p>FORHAIR</p>
+                <div class="acc">
+                    <ul>
+                        <li>
+                            <div>
+                            <a href="#">
+                                    <h3>이벤트</h3>
+                                    <p>문장에서 만나는 이야기</p>
+                                    <span>Forhair</span>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                    <h3>탈모치료프로그램</h3>
+                                    <p>문장에서 만나는 이야기</p>
+                                    <span>Forhair</span>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                    <h3>365 챌린지</h3>
+                                    <p>문장에서 만나는 이야기</p>
+                                    <span>Forhair</span>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                    <h3>생생후기</h3>
+                                    <p>문장에서 만나는 이야기</p>
+                                    <span>Forhair</span>
+                            </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <a href="#">
+                                    <h3>실시간 모낭 카운트</h3>
+                                    <p>문장에서 만나는 이야기</p>
+                                    <span>Forhair</span>
+                            </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center-box2">
+                <h2>FORHAIR<hr></h2>
+                <p>머리카락이 자라고 생활이 달라집니다.<br>
+                   그게 우리가 가장 잘하는 일입니다<br>
+                   포헤어의 36년 역사보다 변화된 당신의 하루하루가 더 중요합니다.</p>
+                <div class="banner">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>의료진 소개</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>독보적인 노하우</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>탈모 자가 테스트</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="center-box2">
+                <h2>36년, 비절개 모발이식은 포헤어입니다.<hr></h2><br>
+                <p>비절개에 대한 모든 것, 오직 결과로 말합니다.</p>
+                <div class="youtube-logo">
+                    <div>
+                        <img src="img/youyube1.png" alt="중간 로고">
+                    </div>
+                </div>
+            </div>
+            <!-- swiper plugin 사용하여 슬라이드 구현  -->
+            <!-- 이미 코드가 구현되어 있는 프로그램 -->
+            <!-- 시간절약, 유지보수 쉬움, 반응형, 수정가능 -->
+            <div class="swiper-box">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide1">
+                            <a href="#">
+                                 <div class="rect">
+                                     <i><img src="img/rect.png" alt="오른쪽 위 화살표"></i>
+                                     <p>이식</p>
+                                 </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <a href="#">
+                                <div class="rect">
+                                    <i><img src="img/rect.png" alt="오른쪽 위 화살표"></i>
+                                    <p>튼튼</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide3">
+                            <a href="#">
+                                 <div class="rect">
+                                     <i><img src="img/rect.png" alt="오른쪽 위 화살표"></i>
+                                     <p>탈모약</p>
+                                 </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide slide4">
+                            <a href="#">
+                                <div class="rect">
+                                    <i><img src="img/rect.png" alt="오른쪽 위 화살표"></i>
+                                    <p>스트레스</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <!-- 동그라미 버튼 -->
+                        <div class="swiper-pagination"></div>
+                        <!-- 자동실행 / 맘춤 버튼 -->
+                        <div class="play-pause">
+                            <span class="play">
+                                <img src="img/play-btn.png" alt="play">
+                            </span>
+                            <span class="pause">
+                                <img src="img/pause-btn.png" alt="pause">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="center-box2">
+                <h2>FORHAIR STORY<hr></h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <h3>숫자로 보는 결과 | 독보적인 노하우</h3>
+                            </a>
+                        </li>
+                    </ul>
+                
+                <div class="story">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="story_1">
+                                    <img src="/img/section5-01.jpg" alt="평균">
+                                </div>
+                                <h3>평균 97% 생착률,끝없는 노력의 성과</h3>
+                                <p>모낭손상을 방지하는 모낭채취 기술과 임상경험이<br> 
+                                   풍부한 의료진의 팀워크로한 번 더 앞서갑니다.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="story_1">
+                                    <img src="/img/section5-02.jpg" alt="평균">
+                                </div>
+                                <h3>75%, 뒷머리의 밀도마저 풍성하다</h3>
+                                <p>모낭을 채취하는 뒷머리 밀도를기존의 약 75%를<br> 
+                                    유지하여코 앞에서 보아도 티가 나지 않습니다.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="story_1">
+                                    <img src="/img/section5-03.jpg" alt="평균">
+                                </div>
+                                <h3>단 60분, 모낭 채취 후  1시간 내 이식 원칙</h3>
+                                <p>어떠한 수술도 모낭 채취 후,1시간 내 이식하여<br>
+                                   생착률을 더욱 높입니다</p>
+                            </a>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </section> 
+        <footer>
+            <div class="center-box">
+                <div class="up-footer">
+                    <div class="left-box">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <a href="#">개인정보처리방침</a>
+                                </li>
+                                <li>
+                                    <a href="#">저작권정책</a>
+                                </li>
+                                <li>
+                                    <a href="#">이용안내</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <address>
+                            (58326) 전라남도 나주시 빛가람로 640
+                            (빛가람동 352) 
+                            한국문화예술위원회<br>대표전화
+                            061-900-2100, 사업자 등록번호
+                            208-82-01138<br>munjang@arko.or.kr,
+                            TEL.061-900-2337<br>문장웹진 ISSN
+                            2733-6352
+                        </address>
+                    </div>
+                    <div class="right-box">
+                        <div class="family">
+                            <div class="family-title">
+                                Family Sites 
+                                <span>
+                                    <img src="img/arrowdown.png" alt="arrow-down">
+                                </span>
+                            </div>
+                            <div class="family-list">
+                                <ul>
+                                    <li>
+                                        <a href="#">한국문화예술뤼원회</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">국가문화예술지원시스템</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">아트누리</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">문화예술,내일</a>
+                                    </li><li>
+                                        <a href="#">A SQUARE</a>
+                                    </li><li>
+                                        <a href="#">공공미술포털</a>
+                                    </li><li>
+                                        <a href="#">문화누리</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">인문360</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">예술나무</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sns">
+                            <ul>
+                                <li><a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="24px" height="24px" fill-rule="nonzero"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.582,6.186c-0.23,-0.86 -0.908,-1.538 -1.768,-1.768c-1.56,-0.418 -7.814,-0.418 -7.814,-0.418c0,0 -6.254,0 -7.814,0.418c-0.86,0.23 -1.538,0.908 -1.768,1.768c-0.418,1.56 -0.418,5.814 -0.418,5.814c0,0 0,4.254 0.418,5.814c0.23,0.86 0.908,1.538 1.768,1.768c1.56,0.418 7.814,0.418 7.814,0.418c0,0 6.254,0 7.814,-0.418c0.861,-0.23 1.538,-0.908 1.768,-1.768c0.418,-1.56 0.418,-5.814 0.418,-5.814c0,0 0,-4.254 -0.418,-5.814zM10,14.598v-5.196c0,-0.385 0.417,-0.625 0.75,-0.433l4.5,2.598c0.333,0.192 0.333,0.674 0,0.866l-4.5,2.598c-0.333,0.193 -0.75,-0.048 -0.75,-0.433z"></path></g></g></svg>
+                                    </a></li>
+                                <li><a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px" fill-rule="nonzero"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z"></path></g></g></svg>
+                                    </a></li>
+                                <li><a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px" fill-rule="nonzero"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.17,0 -13,5.83 -13,13v18c0,7.17 5.83,13 13,13h18c7.17,0 13,-5.83 13,-13v-18c0,-7.17 -5.83,-13 -13,-13zM37,11c1.1,0 2,0.9 2,2c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2c0,-1.1 0.9,-2 2,-2zM25,14c6.07,0 11,4.93 11,11c0,6.07 -4.93,11 -11,11c-6.07,0 -11,-4.93 -11,-11c0,-6.07 4.93,-11 11,-11zM25,16c-4.96,0 -9,4.04 -9,9c0,4.96 4.04,9 9,9c4.96,0 9,-4.04 9,-9c0,-4.96 -4.04,-9 -9,-9z"></path></g></g></svg>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+                <div class="down-footer">
+                     Copylights   All   Reserved.
+                </div>
+            </div>
+        </footer>   
+    </div>
+    <script>
+    const swiper = new Swiper('.swiper', {
+    /* direction : 'vertical', */ 
+        loop: true,
+        slidesPerView:3,
+        spaceBetween : 70,
+        centeredSlides:true,
+        autoplay: { 
+            delay:4000
+        },
+        pagination: {
+        el: '.swiper-pagination',
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+        breakpoints:{
+            480:{
+                 slidesPerView:1,
+                 spaceBetween:0
+            },
+            768:{
+                 slidesPerView:1.5,
+                 spaceBetween:50
+            },
+            1024:{
+                slidesPerView:1.6,
+                spaceBetween:70
+            },
+            1200:{
+                slidesPerView:3,
+                spaceBetween:70
+            },
+            1400:{
+                slidesPerView:3,
+                spaceBetween:70
+            },
+            1920:{
+                slidesPerView:3,
+                spaceBetween:70
+            }
+        }
+        });
+    </script>
+    <!-- jquery -->
+    <script>
+        $(function() {
+            // 접속한 기기의 가로길이를 구해서 변수 width 에 저장
+            let width=$(window).width();
+            // 만약 접속한 기기의 가로길이가 480px보다 크면 pc버전,
+            // 만약 접속한 기기의 가로 길이가 480px 이하라면 모바일 버전의 네비게이션 실행
+            if(width > 480){
+                // header의 nav(네비게이션)의 주메뉴에 마우스 오버하면 서브메뉴와 서브메뉴 배경 내려오는 에니메이션과 header의 배경색변경, 메뉴 글자색 변경,.right-hrader의 아이콘색 변경, 로고색 변경
+
+            $("nav > ul > li").on("mouseenter", 
+            function(){
+                $("header").addClass("active");
+                $(".sub").stop().slideDown();
+                $(".sub-bg").stop().slideDown();
+            });
+
+            // header에서 마우스 아웃되면 로고색, 메뉴글자색, 아이콘색  원래대로 변경되고, 서브메뉴와 서브메뉴 배경들어감
+            $("header").on("mouseleave",function(){
+                $("header").removeClass("active");
+                $(".sub").stop().slideUp();
+                $(".sub-bg").stop().slideUp();
+            });
+            
+            }else{
+                // 세로 아코디언 메뉴 에니메이션
+                $("nav > ul > li > a").on("click", function(){
+
+                    $(this).next().slideToggle();
+                    $(this).find("span").toggleClass("active");
+                    $("nav > ul >li > a").not(this).next().slideUp();
+                    $("nav > ul >li > a").not(this).find("span").removeClass("active");
+                    return false;
+                });
+            }
+            
+            
+
+            // 메인 페이지를 아래로 스크롤하면 header의 배경이 반투명해지고,로고색과 메뉴글자색과 아이콘색이 변경됨
+            $(window).on("scroll", function(){
+                let secTop = $(".s2").offset().top;
+                let scrollTop = $(window).scrollTop();
+
+                if(scrollTop > secTop){
+                    $(".header-bg").show(); //fadeIn 사용가능
+                    $("header").addClass("active2");
+                }else{
+                    $(".header-bg").hide();  //fadeOut 사용가능
+                    $("header").removeClass("active2");
+                }
+                
+            });
+            // 모바일 네비게이션(메뉴 버튼 클릭하면 네비게이션이 오른쪽에서 나오고, 닫기버튼 클릭하면 네비게이션이 오른쪽으로 들어감)
+            $(".menu").on("click", function(){
+                $("nav").animate({
+                       right:"-5%"
+                });
+            });
+            $(".close").on("click", function(){
+                $("nav").animate({
+                       right:"-105%"
+                });
+            });
+
+            // 스위치 변수 선언 및 초기화 
+            let sw=0;
+            // swiper slide에서 pause 버튼 클릭하면 슬라이드 멈춤
+            // swiper slide 에서 play 버튼 클릭하면 슬라이드 자동실행
+            $(".play-pause").on("click",function(){
+                    // 만약 sw 변수값이 0과 같다면 {} 명령문 실행
+                    if(sw == 0){
+                    // sw 변수 값을 1로 변경
+                       sw = 1;
+                    // swiper 자동실핼 멈춤
+                       swiper.autoplay.stop();
+                    // play 버튼 모양 보임
+                       $(".play").show();
+                    // pause 버튼 모양 숨김
+                       $(".pause").hide();
+                    // 만약 sw 변수값이 0과 같지 않다면 {} 명령문 실행   
+                    }else {
+                    // sw 변수의 값을 0으로 변경
+                       sw = 0;
+                    // swiper 자동실행
+                       swiper.autoplay.start();
+                    // play 버튼 모양 숨김
+                       $(".play").hide();
+                    // pause 버튼 모양 숨김
+                       $(".pause").show();
+                    }
+            });
+            let op=0;
+            // family-title 을 클릭하면 family-list 나타남
+            $(".family-title").on("click",function(){
+                if(op == 0){
+                  op=1;
+                  $(".family-list").show();
+                }else{
+                  op=0;
+                  $(".family-list").hide();
+                } 
+            });
+            // family-title 을 다시 한번 크릭하거나 다른곳을 
+            // 클릭하면 family-list 사라짐 
+            $(document).on("click",function(event){
+                if(!$(event.target).closest(".family-title").length){
+                  op=0;
+                 $(".family-list").hide();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
