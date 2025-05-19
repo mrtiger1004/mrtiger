@@ -1125,7 +1125,8 @@ footer .up-footer .info ul {
     }
     .s3 .banner ul {
         flex-flow: row wrap;
-        gap:0.5rem;
+        justify-content: space-between;
+        gap:0;
     }
     .s3 .banner ul li {
         width: 48%;
