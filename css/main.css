@@ -1126,7 +1126,7 @@ footer .up-footer .info ul {
     .s3 .banner ul {
         flex-flow: row wrap;
         justify-content: space-between;
-        gap:0;
+        gap:0.5rem;
     }
     .s3 .banner ul li {
         width: 48%;
@@ -1216,7 +1216,7 @@ footer .up-footer .info ul {
     .s4 .swiper .btns {
         position: absolute;
         left: 50%;
-        transform: translate3d(40%,-280%,0);
+        transform: translate3d(-50%,-280%,0);
     }
     .s4 .swiper .btns .play-pause {
         width: 20px;
